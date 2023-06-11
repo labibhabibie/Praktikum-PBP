@@ -1,0 +1,26 @@
+/**
+   FIle : BujurSangkar.java
+   Penulis : Labib Habibie Sanjaya
+   Deskripsi : Representasi objek kubus
+*/
+
+package org.bangundatar;
+
+import org.poligon.Poligon;
+
+public class BujurSangkar extends Poligon{
+   private double panjangSisi;
+
+   public BujurSangkar(double panjangSisi){
+      this.jumlahSisi = 4;
+		this.panjangSisi = panjangSisi;
+   }
+
+   public double hitungLuas() {
+      return panjangSisi * panjangSisi;
+   }
+
+   public double getPanjangSisi(){
+		return this.panjangSisi;
+	}
+}
